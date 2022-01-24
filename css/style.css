@@ -1,3 +1,84 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* 1st section start..... */
+
+.first-section{
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.contain{
+    width: 35%;
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
+.hading{
+    border-left: 5px solid ;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    
+   
+
+}
+.focused{
+    font-family: 'Oxygen', sans-serif;
+
+font-size: 60px;
+font-weight: 700;
+padding: 0 0 0 10px;
+    margin: 0;
+
+}
+.mission{
+    color: chocolate;
+    font-size: 60px;
+font-weight: 700;
+padding: 0 0 0 10px;
+    margin: 0;
+
+
+}
+.contain p{
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.contain a{
+    text-decoration: none;
+    color: cornsilk;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px; 
+    
+    
+}
+.contain a:hover{
+    background-image: linear-gradient(tomato,orange);
+
+}
+.scroll{
+
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-top: 40px;
+
+}
+.img{
+    width: 30%;
+    margin-left: 10%;
+
+}
+.img img{
+    width: 100%;
+    
+}
+
+/* 1st section end..... */
