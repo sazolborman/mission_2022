@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 /* 1st section start..... */
@@ -161,6 +162,7 @@ padding: 0 0 0 10px;
 /* 3th section start..... */
 .thard-section{
     display: flex;
+    margin-bottom: 150px;
 }
 .image{
     width: 40%;
@@ -206,3 +208,83 @@ padding: 0 0 0 10px;
 }
 
 /* 3th section end..... */
+
+/* 4th section start..... */
+
+.fourth_section{
+
+display: flex;
+margin-bottom: 150px;
+}
+.know{
+    width: 50%;
+    margin-right: 4%;
+}
+.fourth_section h1{
+
+    font-size: 50px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+
+}
+.fourth_section p{
+
+    word-spacing: 1.5px;
+    line-height: 1.75;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+.fourth_section a{
+
+    text-decoration: none;
+    color: cornsilk;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+
+}
+
+.fourth_section a:hover{
+    background-image: linear-gradient(tomato,orange);
+}
+/* 4th section end..... */
+
+/* 5th section start..... */
+
+.all{
+    display: flex;
+    margin-top: 100px;
+
+}
+.extra{
+    width: 25%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+/* 5th section end..... */
+
+footer{
+   
+   background-color: rgb(66, 60, 60);
+    margin: 0%;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+
+footer h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: blanchedalmond;
+
+
+}
+footer p{
+   
+    color: blanchedalmond;
+} 
